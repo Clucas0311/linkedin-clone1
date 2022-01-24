@@ -6,11 +6,13 @@ const Feed = () => {
   return (
     <div className="feed">
       <div className="feed__inputContainer">
-        <CreateIcon />
-        <form action="">
-          <input type="text" />
-          <button type="submit">Send</button>
-        </form>
+        <div className="feed__input">
+          <CreateIcon />
+          <form action="">
+            <input type="text" />
+            <button type="submit">Send</button>
+          </form>
+        </div>
       </div>
     </div>
   );
