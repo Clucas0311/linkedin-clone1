@@ -34,3 +34,13 @@
     outline-width: 0;
     font-weight: 600;
 }
+
+.feed__input > form > button {
+    display: none;
+}
+
+.feed__inputOptions {
+    display: flex;
+    justify-content: space-evenly;
+
+}

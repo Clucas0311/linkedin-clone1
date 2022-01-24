@@ -19,14 +19,8 @@ const Feed = () => {
         </div>
         <div className="feed__inputOptions">
           <InputOption Icon={ImageIcon} title="Photo" color="#70BFf9" />
-        </div>
-        <div className="feed__inputOptions">
           <InputOption Icon={SubscriptionsIcon} title="Video" color="#E7A33E" />
-        </div>
-        <div className="feed__inputOptions">
           <InputOption Icon={EventNoteIcon} title="Event" color="#C0CBCD" />
-        </div>
-        <div className="feed__inputOptions">
           <InputOption
             Icon={CalendarViewDayIcon}
             title="Write article"
